@@ -1,33 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu perfil</title>
-</head>
-<body>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li>
-    </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu perfil</title>
+        <link rel="stylesheet" href="/assets/css/style.css">
+    </head>
+    <body>
+        <ul id="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
 
-    <h1>Sobre a Helena</h1>
+        <div class="container">
+            <div class="padding-30">
+                <h1 class="center">Sobre a Helena</h1>
 
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam minus ipsa facere, nisi repellat aliquid error culpa expedita beatae amet provident perferendis sint accusamus perspiciatis corporis dolor, quisquam fugit laudantium.</p>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi harum dicta asperiores, debitis temporibus corporis, architecto id minus ut obcaecati consequatur ullam porro quisquam. Ab aperiam quos facere architecto repudiandae.</p>
-    <img src="assets/img/Foto_Helena.jpeg" alt="Foto da criadora desta página">
+                <p class="center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam minus ipsa facere, nisi repellat aliquid error culpa expedita beatae amet provident perferendis sint accusamus perspiciatis corporis dolor, quisquam fugit laudantium.</p>
+                <p class="center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi harum dicta asperiores, debitis temporibus corporis, architecto id minus ut obcaecati consequatur ullam porro quisquam. Ab aperiam quos facere architecto repudiandae.</p>
+            </div>
 
-    <h2>Meu vídeo favorito: </h2>
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/cDnCgmfhO_U?si=waxzy_g1ANG9kz0O" 
-    title="YouTube video player" 
-    frameborder="1" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
-    ></iframe>
-
-
-</body>
+            <div>
+                <img class="profile-picture padding-30" src="assets/img/Foto_Helena.jpeg" alt="Foto da criadora desta página">
+            </div>
+        </div>
+        
+        <h2 class="center">Meu vídeo favorito: </h2>
+        <div class="container">
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/cDnCgmfhO_U?si=waxzy_g1ANG9kz0O" 
+            title="YouTube video player" 
+            frameborder="1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+            ></iframe>
+        </div>
+    </body>
 </html>
